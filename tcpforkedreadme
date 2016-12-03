@@ -1,0 +1,10 @@
+Follow the below steps to compile and run the cleint and server
+
+1:Save the client and server at two different locations
+For Server
+2: Change the directory on terminal and execute make -f tcpforkedserver to compile the server program
+3: Execute./tcp_forked_server to run the server
+For Client
+4: Change the directory on a new terminal to client directory and execute make -f tcpclient to compile the client
+5: Execute ./tcp_client 127.0.0.1 Doc 10003 to run the client -arguments are the server ip, File name to be copied and the port number 
+6: Verify the file has been copied from the server location to client location.

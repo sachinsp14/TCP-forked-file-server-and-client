@@ -1,0 +1,10 @@
+#_*_Makefile _*_
+
+#target: dependencies
+#	action
+
+all: 
+	gcc tcp_forked_server.c -o tcp_forked_server
+
+clean:
+	rm tcp_forked_server
